@@ -1,0 +1,36 @@
+p{
+    font-weight: bold;
+    font-family: 'Helvetica';
+}
+
+h1{
+    font-size: 50px;
+    color: red;
+}
+h2{
+    font-size: 26px;
+    color:  gray;
+}
+
+.peter{
+    color: teal;
+}
+.dana{
+    color: tomato;
+}
+.ray{
+    color:indigo;
+}
+.egon{
+    color: sienna;
+}
+.winston{
+    color: sandybrown;
+}
+.mayor{
+    color: royalblue;
+}
+.description{
+    font-style: italic;
+    color: grey;
+}
