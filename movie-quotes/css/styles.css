@@ -1,15 +1,19 @@
 p{
     font-weight: bold;
     font-family: 'Helvetica';
+    text-indent: 0.8in;
 }
 
 h1{
     font-size: 50px;
     color: red;
+    text-indent: 0.4in;
 }
 h2{
     font-size: 26px;
     color:  gray;
+    text-indent: 0.4in;
+    line-height: 0.1in;
 }
 
 .peter{
