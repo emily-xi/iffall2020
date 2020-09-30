@@ -1,0 +1,40 @@
+
+
+p{
+    text-align: center;
+    color: rgb(146, 122, 161);
+    font-family: Courier New;
+}
+body{
+    background-color: rgb(3, 4, 17);
+    background-image: img src="https://media3.giphy.com/media/3d63YDxRJRtkZepvGm/source.gif" style="opacity: 0.5";
+    align-items: center;
+}
+
+h1{
+    color: rgb(110, 0, 184);
+    text-align: center;
+    font-size: 120px;
+    font-family: Cambria;
+    font-stretch: expanded;
+}
+.wolf{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(135, 206, 107);
+}
+.akali{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(218, 69, 138);
+}
+.ahri{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(69, 201, 218);
+}
+.bea{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(218, 91, 69);
+}
