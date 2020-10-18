@@ -1,0 +1,59 @@
+/* grid using float */
+
+.grid img{
+    width:90%;
+}
+
+.grid{
+    padding:0;
+}
+
+.grid li{
+    display: block;
+}
+
+.using-floats li{
+    float: left;
+}
+
+.using-floats::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.grid li{
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+/* grid using inline-block */
+
+.using-inline-block li{
+    display: inline-block;
+}
+
+.using-inline-block{
+    font-size: 0;
+}
+
+/* grid using flex */
+
+.using-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* grid using grid */
+
+.using-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.using-grid li{
+    width: 100%;
+}
+
