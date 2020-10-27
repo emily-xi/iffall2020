@@ -14,7 +14,7 @@ header{
     /* background-color: rgba(68, 0, 255, 0.5); */
     background-image: url(https://cdn.shopify.com/s/files/1/1098/0996/products/Prints_Meyoco_Star_Umbrella_11x15.5_13x17.5_1000.jpg?v=1552255712);
     background-position: 40% 52%;
-    color: white;
+    color: black;
     text-align: center;
     padding-top: 150px;
     height: 330px;
@@ -41,6 +41,7 @@ h2{
 
 h3{
     text-align: center;
+    color: white;
     font-size: 40px;
     margin-block-end: 33px;
 }
