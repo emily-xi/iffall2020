@@ -1,0 +1,121 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-style: normal;
+    /* line-height: 26px; */
+}
+
+p{
+    font-size: 17.8px;
+    line-height: 1.59rem;
+
+}
+
+header{
+    /* background-color: rgba(68, 0, 255, 0.5); */
+    background-image: url(https://cdn.shopify.com/s/files/1/1098/0996/products/Prints_Meyoco_Star_Umbrella_11x15.5_13x17.5_1000.jpg?v=1552255712);
+    background-position: 40% 52%;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    height: 330px;
+    line-height: 4px;
+}
+
+/* .background1{
+    background-color: rgba(255, 30, 0, 0.5);
+} */
+
+h1{
+    font-size: 80px;
+}
+
+.column-container{
+    width: 960px;
+    margin: auto;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 32px;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-block-end: 33px;
+}
+
+.one{
+    padding-top: 1px;
+    background-color: rgb(151, 156, 212);
+    padding-bottom: 34px;
+}
+
+.two{
+    padding-top: 1px;
+    background-color: rgba(138, 213, 223, 1);
+    padding-bottom: 24px;
+}
+
+.three{
+    padding-top: 1px;
+    background-color: rgb(236, 168, 196);
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+h5{
+    font-size: 24px;
+    line-height: 1.5em;
+    padding: 0 5em 0px 5em;
+    margin-top: 9px;
+}
+
+.big-image{
+    width: 400px; height: 300px;
+    object-fit: cover;
+    object-position: center;
+    float: right;
+    margin: 0 0 40px 42px;
+}
+
+.smaller-images{
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+    float:left;
+    /* margin: 0 1em 1em 0; */
+    margin-right: 12px;
+    margin-bottom: 24px;
+} 
+
+.image-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    /* margin-right: 24px; */
+    /* padding: 0 3em 0 0; */
+}
+
+.image-grid li{
+    display: inline-block;
+}
+
+h4{
+    font-size: 20px;
+    font-style: bold;
+    line-height: 0;
+    margin: 13px;
+}
+
+.image-grid p{
+    font-size: 18px;
+    padding-right: 24px;
+}
+
+footer{
+    padding-top: 22px;
+    background-color: seashell;
+    color: cadetblue;
+    height: 80px;
+}
