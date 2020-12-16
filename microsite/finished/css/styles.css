@@ -1,0 +1,301 @@
+html{
+    /* display: flex; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* @media (min-width: 1020px){
+  .content{
+      display: grid;
+      grid-template-columns: 3fr 7fr;
+  }
+  
+} */
+
+
+  .sidenav {
+     /* Full-height: remove this if you want "auto" height */
+    width: 100%; /* Set the width of the sidebar */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color:white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 15px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    text-align: center;
+  }
+
+  .sidenav h1{
+    color: rgb(255, 216, 89);
+    font-size: 2.5rem;
+    text-align: center;
+    border: 4px solid black;
+    width: 40%;
+    padding: 16px;
+    margin: auto;
+    margin-bottom: 28px;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: lightskyblue;
+  }
+
+  .main img{
+    width: 100%;
+    object-fit: cover;
+    padding-top: 0;
+    margin: 0;
+ }
+
+  @media screen and (min-width: 910px) {
+    .sidenav {
+      height: 100%; /* Full-height: remove this if you want "auto" height */
+      width: 30%; /* Set the width of the sidebar */
+      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 2; /* Stay on top */
+      top: 0; /* Stay at the top */
+      left: 0;
+      background-color:white;
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 160px;
+    }
+    /* The navigation menu links */
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 22px;
+      color: #818181;
+      display: block;
+      text-align: center;
+    }
+
+    .main {
+      margin-left: 30%; /* Same as the width of the sidebar */
+      /* padding: 0px 10px; */
+    }
+
+    .main-text{
+      margin-left: 30%;
+    }
+
+
+  }
+
+  h2{
+    font-size: 4rem;
+    color: #26477D;
+  }
+
+  .main-text{
+    padding: 5em;
+    background-color: #CCF2F8;
+  }
+
+  
+  /* On smaller screens, where width is less than x, change the style of the sidebar (less padding and a smaller font size) */
+
+  @media screen and (max-width: 1028px) {
+    .sidenav h1 {font-size: 2rem;}
+    .sidenav {padding-top: 160px;}
+  }
+
+  @media screen and (max-width: 910px) {
+    .sidenav {padding-top: 160px;}
+    .sidenav a {font-size: 18px;}
+    .sidenav h1 {font-size: 24px;}
+    .sidenav{
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    .main-text{
+      margin-right: 0;
+      padding: 3.1em;
+      font-size: 12.5px;
+    }
+
+    h2{
+      font-size: 2rem;
+    }
+
+  }
+
+
+
+  /* @media screen and (min-width: 640px) {
+    .main-text{
+      margin-left: 30%;
+    }
+  } */
+
+  footer{
+    text-align: right;
+    z-index: 1;
+    margin-left: 30%; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    font-size: 12px;
+  }
+
+
+
+
+
+/* CAST PAGE */
+
+
+.cast-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 1230px) {
+    .cast-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+        text-align: center;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+  .cast-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0;
+      text-align: center;
+      font-size: 0.8rem;
+      margin: 0;
+  }
+}
+
+.cast-grid li{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+h4{
+    font-weight: normal;
+    margin: 0;
+    font-size: 10px;
+}
+
+.castimg{
+    object-fit: cover;
+    height: 170px;
+    width: 170px;
+}
+
+
+/* Soundtrack */
+
+.music{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 0;
+}
+
+.music img{
+  width: 100%;
+}
+
+.music ul{
+  padding: 0;
+}
+
+.tracks ul{
+  padding: 7px;
+  margin-left: 3em;
+}
+
+.music a{
+  padding: 0;
+}
+
+a#btn_spotify {
+  display: inline-block;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px 40px 0 40px;
+  background-color: #2ebd59;
+  border: 2px solid #2ebd59;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+a#btn_spotify:hover {
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+
+
+/* reception */
+.awards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 540px) {
+  .awards{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin-bottom: 35px;
+  }
+}
+
+/* plot */
+.holdhands{
+  width: 100%;
+}
+
+/* SOURCES PAGE*/
+
+.sources a{
+  text-decoration: none;
+  color: black;
+}
+
+.sources a:hover{
+  text-decoration: none;
+  color: darkblue;
+}
+
+.sources img{
+  width: 80%;
+}
