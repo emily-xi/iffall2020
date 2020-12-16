@@ -253,6 +253,7 @@ a#btn_spotify {
   font-weight: bold;
   text-decoration: none;
   transition: all .5s;
+  margin-bottom: 25px;
 }
 
 a#btn_spotify:hover {
@@ -277,6 +278,14 @@ a#btn_spotify:hover {
     padding: 0;
     margin-bottom: 35px;
   }
+
+  .music{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+  }
+
 }
 
 /* plot */
